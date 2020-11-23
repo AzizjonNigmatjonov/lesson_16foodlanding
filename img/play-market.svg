@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" width="27" height="28">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-641 -5442L945 -5442L945 265L-641 265Z" />
+		</clipPath>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="7.997" y1="-1.341" x2="14.536" y2="25.791">
+			<stop offset="0" stop-color="#006884"  />
+			<stop offset="1" stop-color="#8ad1d0"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+	</style>
+	<g id="Resturant Landing" clip-path="url(#cp1)">
+		<g id="ftr">
+			<g id="dwn">
+				<g id="txt">
+					<g id="logo">
+						<g id="google-play-badge">
+							<path id="Path 332" class="shp0" d="M0.44 14.03L0.44 1.64C0.44 0.93 1.03 0.34 1.61 0.34C2.2 0.34 2.43 0.46 2.78 0.7L25.32 13.21C25.79 13.44 26.02 13.8 26.02 14.15C26.02 14.5 25.79 14.86 25.32 15.09L2.78 27.6C2.55 27.72 2.2 27.96 1.61 27.96C1.03 27.96 0.44 27.37 0.44 26.66L0.44 14.03Z" />
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
