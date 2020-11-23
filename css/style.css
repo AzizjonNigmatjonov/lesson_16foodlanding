@@ -25,6 +25,16 @@ body {
 	padding-top: 60px;
 }
 
+.nav-image {
+	position: relative;
+}
+
+.nav-allipse {
+	position: absolute;
+	top: -2px;
+	right: 0;
+}
+
 .nav-list {
 	display: flex;
 	width: 450px;
@@ -149,9 +159,6 @@ body {
 	text-transform: capitalize;
 }
 
-svg{
-	background-color: #fafafb;
-}
 
 .our .container {
 	width: 1140px;
@@ -463,12 +470,13 @@ svg{
 	outline: none;
 }
 
-.want-img {
-	width: 631px;
-	height: 510px;
-	object-fit: cover;
+.want-image {
+	width: 100%;
 }
 
+.want-img{
+	width: 100%;
+}
 
 .nav .container {
 	margin: 0 auto;
