@@ -192,26 +192,35 @@ body {
 	text-align: center;
 }
 
-.cooker {
+.specialities-list {
 	width: 1140px;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 }
 
-.cooker-img {
+.specialities-item {
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.specialities-item:nth-child(even) {
+	flex-direction: row-reverse;
+	justify-content: space-around;
+}
+
+.specialities-item-img {
 	width: 471px;
 	height: 404px;
 	object-fit: cover;
 }
 
-.find {
-	margin-left: 90px;
-	padding-bottom: 30px;
-}
 
-
-.find-title {
+.specialities-item-content-title {
 	width: 400px;
 	font-size: 28px;
 	color: #464952;
@@ -220,73 +229,9 @@ body {
 	line-height: 40px;
 }
 
-.find-subtext{
+.specialities-item-content-subtext{
 	padding-top: 30px;
 	width: 500px;
-	height: 122px;
-	font-size: 16px;
-	line-height: 32px;
-	color: #9a9a9a;
-	font-weight: 400;
-	font-family: "Varela Round";
-}
-
-.most {
-	width: 1140px;
-	margin: 0 auto;
-	padding: 110px 0;
-	display: flex;
-	align-items: center;
-	padding-left: 30px;
-}
-
-.atractive {
-	padding-right: 90px;
-	padding-left: 30px;
-}
-
-.atractive-title {
-	width: 380px;
-	font-size: 28px;
-	line-height: 38px;
-	color: #464952;
-	font-weight: 700;
-	font-family: "Josefin Sans";
-}
-
-.atractive-subtext{
-	padding-top: 20px;
-	width: 500px;
-	height: 122px;
-	font-size: 16px;
-	line-height: 32px;
-	color: #9a9a9a;
-	font-weight: 400;
-	font-family: "Varela Round";
-}
-
-.super {
-	width: 1140px;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-}
-
-.fast {
-	padding-left: 90px;
-}
-
-.fast-title {
-	width: 500px;
-	font-size: 28px;
-	line-height: 38px;
-	color: #464952;
-	font-weight: 700;
-	font-family: "Josefin Sans";
-}
-
-.fast-subtext{
-	width: 520px;
 	height: 122px;
 	font-size: 16px;
 	line-height: 32px;
